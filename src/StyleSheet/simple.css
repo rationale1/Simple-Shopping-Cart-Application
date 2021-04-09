@@ -1,0 +1,106 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #dde8fc;
+  background-color: skyblue;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  max-width: 90%;
+  /* border: 1px solid red; */
+}
+
+img {
+  width: 100px;
+  /* max-width: 100%; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.block {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+h2 {
+  color: royalblue;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 7px;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0.3rem;
+}
+
+.add {
+  /* padding: 0.4rem 1rem; */
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.4rem;
+  background-color: yellow;
+}
+
+.plus {
+  background-color: magenta;
+}
+
+.cart {
+  padding: 0.5rem;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

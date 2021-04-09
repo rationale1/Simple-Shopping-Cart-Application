@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.table {
+  width: 90%;
+  padding: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+}
+
+th:nth-child(1) {
+  border-bottom: none;
+}
+
+th,
+td {
+  font-size: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: magenta;
+}
+.danger {
+  background-color: red;
+  margin-right: 10px;
+}
+.submit {
+  margin-top: 10px;
+  background-color: green;
+  display: inline-block;
+}
+
+.form {
+  width: 90%;
+  padding: 1em;
+}
+
+form input {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+form input::placeholder {
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.message {
+  width: 90%;
+  background-color: lightcoral;
+  color: green;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 0;
+  border-radius: 5px;
+}
